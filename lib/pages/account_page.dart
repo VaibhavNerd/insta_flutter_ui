@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:insta_flutter/theme/colors.dart';
 import 'package:insta_flutter/util/account_images_json.dart';
-import 'package:insta_flutter/util/vaibhav details.dart';
+import 'package:insta_flutter/util/vaibhav_details.dart';
 
 
 class AccountPage extends StatefulWidget {
@@ -77,6 +77,7 @@ class _AccountPageState extends State<AccountPage> {
               Row(
                 children: [
                   Container(
+
                     width: (size.width - 20) * 0.3,
                     child: Stack(
                       children: [
@@ -110,9 +111,10 @@ class _AccountPageState extends State<AccountPage> {
                         ),
                       ],
                     ),
+
                   ),
                   Container(
-                    width: (size.width - 20) * 0.7,
+                    width: (size.width - 20)*0.7,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
@@ -154,6 +156,8 @@ class _AccountPageState extends State<AccountPage> {
                         ),
                       ],
                     ),
+
+
                   ),
                 ],
               ),

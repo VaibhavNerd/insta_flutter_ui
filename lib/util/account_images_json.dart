@@ -1,5 +1,10 @@
 
 const images = [
+  "https://i.ibb.co/Cv68Chm/image-2.jpg",
+  "https://i.ibb.co/3TtqQfG/v1-removebg-preview.png",
+  "https://i.ibb.co/vmRbFR6/v.jpg",
+  "https://i.ibb.co/Bn65GJW/vaib.jpg",
+  "https://i.ibb.co/v12DK3H/logo.png",
   "https://images.unsplash.com/photo-1602526429747-ac387a91d43b?ixid=MXwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
   "https://images.unsplash.com/photo-1609587293767-380ca047a28f?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
   "https://images.unsplash.com/photo-1609534356473-d92a626e780b?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
