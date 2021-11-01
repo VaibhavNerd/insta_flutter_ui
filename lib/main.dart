@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+
 import 'package:insta_flutter/pages/activity_page.dart';
-import 'package:insta_flutter/pages/search_page.dart';
 import 'package:splashscreen/splashscreen.dart';
 import 'package:insta_flutter/pages/home_page.dart';
 import 'package:insta_flutter/pages/root_app.dart';
@@ -9,10 +8,10 @@ import 'package:insta_flutter/pages/sign_in_page.dart';
 
 void main() {
   runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomePage(),
-    )
+      MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: HomePage(),
+      )
   );
 }
 class HomePage extends StatefulWidget {

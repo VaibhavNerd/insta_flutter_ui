@@ -36,7 +36,7 @@ class _SearchPageState extends State<SearchPage> {
              Container(
                width: (size.width)*0.9,
 
-              child: Padding(padding: EdgeInsets.only(left: 10 ,right:10 ,bottom: 2),
+              child: Padding(padding: EdgeInsets.only(left: 10 ,right:10 ,bottom: 2,top: 2),
 
                child: Row(
 
@@ -55,7 +55,8 @@ class _SearchPageState extends State<SearchPage> {
              ),
 
            ),
-           Spacer(),
+             Spacer(),
+
               Container(
 
                 padding: EdgeInsets.all(20),
@@ -63,6 +64,7 @@ class _SearchPageState extends State<SearchPage> {
                 height: 1,
                 color: Colors.black,
               )
+
              ]
            ),
                //Row(

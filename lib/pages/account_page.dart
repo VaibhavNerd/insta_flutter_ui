@@ -27,6 +27,8 @@ class _AccountPageState extends State<AccountPage> {
   }
 
   Widget getAppBar() {
+
+
     return PreferredSize(
       preferredSize: Size.fromHeight(55),
       child: SafeArea(
@@ -63,7 +65,11 @@ class _AccountPageState extends State<AccountPage> {
           ),
         ),
       ),
+
+
+
     );
+
   }
 
   Widget getBody(size) {
